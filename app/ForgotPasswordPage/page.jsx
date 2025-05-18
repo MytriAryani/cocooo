@@ -2,7 +2,7 @@
 "use client";
 import React, { useState } from "react";
 import { getAuth, sendPasswordResetEmail } from "firebase/auth";
-import { app } from "../../firebaseConfig"; // not '../firebaseConfig'
+import { app} from "../firebase";  // not '../firebaseConfig'
 import "./style.css";
 
 export default function ForgotPasswordPage() {
