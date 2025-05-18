@@ -2,9 +2,7 @@
 import { signInWithEmailAndPassword } from "firebase/auth";
 import { useRouter } from "next/navigation"; // for client-side navigation
 import { useState } from "react";
-// import { auth } from "../../firebaseConfig";
-//  // adjust this path if needed
-import { auth } from "../../../firebase";
+import { auth } from "../firebase";
 import "./style.css";
 
 export default function LoginPage() {
